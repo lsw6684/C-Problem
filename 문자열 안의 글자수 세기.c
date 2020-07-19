@@ -4,7 +4,7 @@ int main(void)
 {
 	
 	char input[1001];
-	printf("±æÀÌ°¡ ±Ã±İÇÑ ¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä.\n"); 
+	printf("ê¸¸ì´ê°€ ê¶ê¸ˆí•œ ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”.\n"); 
 	gets(input);
 
 	int count;
@@ -12,6 +12,6 @@ int main(void)
 	{
 		count ++;		
 	} 
-	printf("ÀÔ·ÂÇÑ ¹®ÀÚ¿­ÀÇ ±æÀÌ´Â %d ÀÔ´Ï´Ù.\n", count);
+	printf("ì…ë ¥í•œ ë¬¸ìì—´ì€ %s\nê¸¸ì´ëŠ” %d ì…ë‹ˆë‹¤.\n", input, count);
 	return 0;	
 }
