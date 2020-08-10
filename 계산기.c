@@ -50,4 +50,6 @@ int main(void)
 			printf("다시 입력하세요.");
 		}	
 	}
+	return 0;
+
 }
