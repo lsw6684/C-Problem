@@ -1,19 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
 	int i, j, stair;
 	back:
-	printf("ÇÇ¶ó¹ÌµåÀÇ Ãş¼ö¸¦ ÀÔ·ÁÇÏ¼¼¿ä.(max = 20)\n");
+	printf("í”¼ë¼ë¯¸ë“œì˜ ì¸µìˆ˜ë¥¼ ì…ë ¤í•˜ì„¸ìš”.(max = 20)\n");
 	scanf("%d", &stair);
 	if(stair > 20)
 	{
-		printf("20ÀÌ ÃÖ´ë¶ó°í! ´Ù½Ã ÀÔ·ÂÇØ.\n");
+		printf("20ì´ ìµœëŒ€ë¼ê³ ! ë‹¤ì‹œ ì…ë ¥í•´.\n");
 		goto back;
 	}
 	if(stair <= 0)
 	{
-		printf("Àå³­ÇØ?\n");
+		printf("ì¥ë‚œí•´?\n");
 		goto back;
 	}
 	
@@ -26,13 +27,14 @@ int main(void)
 		}
 		for(j=0; j<i; j++)
 		{
-			printf("¡á");
+			printf("â– ");
 		}
 		for(j=0; j<i-1; j++)
 		{
-			printf("¡á");
+			printf("â– ");
 		}
 		printf("\n"); 
 	}
+	system("pause");
 	
 }
